@@ -95,7 +95,7 @@ Legend: ![](https://github.com/Illumaria/made-deep-learning/blob/master/icons/pd
     <!-------------------- WEEK 6 -------------------->
     <tr>
       <td align="center"><a href="https://data.mail.ru/curriculum/program/lesson/16717/">6</a></td>
-      <td align="center">Скрытые марковские модели (HMM), применение HMM для распознавания речи, смеси гауссовских распределений, обучение GMM-HMM, взвешенные конечные преобразователи, WFST-декодер, словные сети, дискриминативное обучение GMM-HMM, адаптация систем распознавания речи.</td>
+      <td align="center">Скрытые марковские модели (HMM), применение HMM для распознавания речи, смеси гауссовских распределений, обучение GMM-HMM.</td>
       <td align="center">
         <a href="https://github.com/Illumaria/made-speech-signal-processing/blob/master/06-gmm-hmm/06_gmm_hmm.pdf"><img src="https://github.com/Illumaria/made-deep-learning/blob/master/icons/pdf.png" /></a>
         <a href="https://youtu.be/4THZbCQ0-tM"><img src="https://github.com/Illumaria/made-deep-learning/blob/master/icons/youtube.png" /></a>
@@ -104,13 +104,55 @@ Legend: ![](https://github.com/Illumaria/made-deep-learning/blob/master/icons/pd
     </tr>
     <!-------------------- WEEK 7 -------------------->
     <tr>
-      <td align="center"><a href="https://data.mail.ru/curriculum/program/lesson/16718/">7</a></td>
-      <td align="center">Традиционные системы распознавания речи на основе нейронных сетей: нейросети как классификаторы, тандемные (TRAP, LC-RC, Bottleneck-признаки) и гибридные (CD-DNN-HMM) системы распознавания, обучение DNN-HMM (CLDNN, TDNN), последовательно-дискриминативное обучение (MMI, LF-MMI, MWE/MPE, sMBR), адаптация систем распознавания речи на основе нейронных сетей (VTLN, fMLLR-преобразование, дикторо-осведомлённое обучение, LIN, LHN, LON).</td>
+      <td rowspan="2" align="center"><a href="https://data.mail.ru/curriculum/program/lesson/16718/">7</a></td>
+      <td align="center">Взвешенные конечные преобразователи, WFST-декодер, словные сети, дискриминативное обучение GMM-HMM, адаптация систем распознавания речи. Традиционные системы распознавания речи на основе нейронных сетей: нейросети как классификаторы.</td>
       <td align="center">
         <a href="https://github.com/Illumaria/made-speech-signal-processing/blob/master/07-dnn-hmm/07_dnn_hmm.pdf"><img src="https://github.com/Illumaria/made-deep-learning/blob/master/icons/pdf.png" /></a>
         <a href="https://youtu.be/0w5rukVuUos"><img src="https://github.com/Illumaria/made-deep-learning/blob/master/icons/youtube.png" /></a>
       </td>
-      <td>02.04.2021</td>
+      <td rowspan="2">02.04.2021</td>
+    </tr>
+    <tr>
+      <td align="center">Распознавание по эталонному словарю.</td>
+      <td align="center"><a href="https://nbviewer.jupyter.org/github/Illumaria/made-speech-signal-processing/blob/master/07-dnn-hmm/recognition_via_reference_dictionary.ipynb"><img src="https://github.com/Illumaria/made-deep-learning/blob/master/icons/jupyter.png" /></a></td>
+    </tr>
+    <!-------------------- WEEK 8 -------------------->
+    <tr>
+      <td rowspan="2" align="center"><a href="https://data.mail.ru/curriculum/program/lesson/16719/">8</a></td>
+      <td align="center">Тандемные (TRAP, LC-RC, Bottleneck-признаки) и гибридные (CD-DNN-HMM) системы распознавания, обучение DNN-HMM (CLDNN, TDNN), последовательно-дискриминативное обучение (MMI, LF-MMI, MWE/MPE, sMBR), адаптация систем распознавания речи на основе нейронных сетей (VTLN, fMLLR-преобразование, дикторо-осведомлённое обучение, LIN, LHN, LON).</td>
+      <td align="center">
+        <a href="https://github.com/Illumaria/made-speech-signal-processing/blob/master/07-dnn-hmm/07_dnn_hmm.pdf"><img src="https://github.com/Illumaria/made-deep-learning/blob/master/icons/pdf.png" /></a>
+        <a href="https://youtu.be/acSCesSywQw"><img src="https://github.com/Illumaria/made-deep-learning/blob/master/icons/youtube.png" /></a>
+      </td>
+      <td rowspan="2">09.04.2021</td>
+    </tr>
+    <tr>
+      <td align="center">DNN классификатор.</td>
+      <td align="center"><a href="https://nbviewer.jupyter.org/github/Illumaria/made-speech-signal-processing/blob/master/08-dnn-classifier/dnn_classifier.ipynb"><img src="https://github.com/Illumaria/made-deep-learning/blob/master/icons/jupyter.png" /></a></td>
+    </tr>
+    <!-------------------- WEEK 9 -------------------->
+    <tr>
+      <td align="center"><a href="https://data.mail.ru/curriculum/program/lesson/16720/">9</a></td>
+      <td align="center">Недостатки современных гибридных систем, Connectionist Temporal Classification (CTC), RNN-Transducer (RNN-T), Encoder-Decoder системы с механизмом внимания (AED), комбинации end-to-end подходов.</td>
+      <td align="center">
+        <a href="https://github.com/Illumaria/made-speech-signal-processing/blob/master/09-end-to-end-asr-systems/09_end_to_end_asr_systems.pdf"><img src="https://github.com/Illumaria/made-deep-learning/blob/master/icons/pdf.png" /></a>
+        <a href="https://youtu.be/acSCesSywQw"><img src="https://github.com/Illumaria/made-deep-learning/blob/master/icons/youtube.png" /></a>
+      </td>
+      <td>16.04.2021</td>
+    </tr>
+    <!-------------------- WEEK 10 -------------------->
+    <tr>
+      <td rowspan="2" align="center"><a href="https://data.mail.ru/curriculum/program/lesson/16721/">10</a></td>
+      <td align="center">Факторы искажения речи и способы борьбы с ними (разнообразие стилей речи, меж- и внутридикторская вариативность, разнообразие условий записи), снижение вариативности входных данных (VTLN, шумоподавление, дереверберация), повышение вариативности обучающих данных (Multi-Condition Training, data augmentation).</td>
+      <td align="center">
+        <a href="https://github.com/Illumaria/made-speech-signal-processing/blob/master/10-speech-distortion-factors/10_speech_distortion_factors.pdf"><img src="https://github.com/Illumaria/made-deep-learning/blob/master/icons/pdf.png" /></a>
+        <a href="https://youtu.be/HV-ck7u2ZXs"><img src="https://github.com/Illumaria/made-deep-learning/blob/master/icons/youtube.png" /></a>
+      </td>
+      <td rowspan="2">23.04.2021</td>
+    </tr>
+    <tr>
+      <td align="center">End-to-end ASR system, ESPnet.</td>
+      <td align="center"><a href=""><img src="https://github.com/Illumaria/made-deep-learning/blob/master/icons/jupyter.png" /></a></td>
     </tr>
   </tbody>
 </table>
