@@ -168,13 +168,17 @@ Legend: ![](https://github.com/Illumaria/made-deep-learning/blob/master/icons/pd
     </tr>
     <!-------------------- WEEK 12 -------------------->
     <tr>
-      <td align="center"><a href="https://data.mail.ru/curriculum/program/lesson/16723/">12</a></td>
+      <td rowspan="2" align="center"><a href="https://data.mail.ru/curriculum/program/lesson/16723/">12</a></td>
       <td align="center">Современные системы синтеза речи на основе DNN: основные компоненты и подходы к обучению (входные/выходные признаки, Encoder, Decoder, Vocoder), авторегрессионные методы (Tacotron, DeepVoice, TransformerTTS), неавторегрессионные (параллельные) методы (ForwardTacotron, ParallelTacotron, FastSpeech), Flow-based TTS (Flow-TTS, Flowtron), способы управления синтезируемой речью, Global Style Tokens, style transfer в задачах TTS.</td>
       <td align="center">
         <a href="https://github.com/Illumaria/made-speech-signal-processing/blob/master/12-dnn-tts-systems/12_dnn_tts_systems.pdf"><img src="https://github.com/Illumaria/made-deep-learning/blob/master/icons/pdf.png" /></a>
         <a href="https://youtu.be/Ui0odgHuVhE"><img src="https://github.com/Illumaria/made-deep-learning/blob/master/icons/youtube.png" /></a>
       </td>
-      <td>22.05.2021</td>
+      <td rowspan="2">22.05.2021</td>
+    </tr>
+    <tr>
+      <td align="center">TTS Text & Audio Preprocessing, Forward Attention.</td>
+      <td align="center"><a href="https://nbviewer.jupyter.org/github/Illumaria/made-speech-signal-processing/blob/master/12-dnn-tts-systems/tts_preprocessing.ipynb"><img src="https://github.com/Illumaria/made-deep-learning/blob/master/icons/jupyter.png" /></a></td>
     </tr>
     <!-------------------- WEEK 13 -------------------->
     <tr>
