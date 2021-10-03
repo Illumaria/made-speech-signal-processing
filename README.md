@@ -154,5 +154,47 @@ Legend: ![](https://github.com/Illumaria/made-deep-learning/blob/master/icons/pd
       <td align="center">End-to-end ASR system, ESPnet.</td>
       <td align="center"><a href="https://nbviewer.jupyter.org/github/Illumaria/made-speech-signal-processing/blob/master/10-speech-distortion-factors/end_to_end_espnet.ipynb"><img src="https://github.com/Illumaria/made-deep-learning/blob/master/icons/jupyter.png" /></a></td>
     </tr>
+    <!-------------------- MODULE 3 -------------------->
+    <tr><th /><th>Speech Synthesis</th><th /><th /></tr>
+    <!-------------------- WEEK 11 -------------------->
+    <tr>
+      <td align="center"><a href="https://data.mail.ru/curriculum/program/lesson/16722/">11</a></td>
+      <td align="center">История создания говорящих машин. Системы синтеза речи на основе DNN. Нейронные вокодеры. Современные задачи и проблемы TTS.</td>
+      <td align="center">
+        <a href="https://github.com/Illumaria/made-speech-signal-processing/blob/master/11-intro-to-tts/11_intro_to_tts.pdf"><img src="https://github.com/Illumaria/made-deep-learning/blob/master/icons/pdf.png" /></a>
+        <a href="https://youtu.be/yUmk42nCJBM"><img src="https://github.com/Illumaria/made-deep-learning/blob/master/icons/youtube.png" /></a>
+      </td>
+      <td>15.05.2021</td>
+    </tr>
+    <!-------------------- WEEK 12 -------------------->
+    <tr>
+      <td align="center"><a href="https://data.mail.ru/curriculum/program/lesson/16723/">12</a></td>
+      <td align="center">Современные системы синтеза речи на основе DNN: основные компоненты и подходы к обучению (входные/выходные признаки, Encoder, Decoder, Vocoder), авторегрессионные методы (Tacotron, DeepVoice, TransformerTTS), неавторегрессионные (параллельные) методы (ForwardTacotron, ParallelTacotron, FastSpeech), Flow-based TTS (Flow-TTS, Flowtron), способы управления синтезируемой речью, Global Style Tokens, style transfer в задачах TTS.</td>
+      <td align="center">
+        <a href="https://github.com/Illumaria/made-speech-signal-processing/blob/master/12-dnn-tts-systems/12_dnn_tts_systems.pdf"><img src="https://github.com/Illumaria/made-deep-learning/blob/master/icons/pdf.png" /></a>
+        <a href="https://youtu.be/Ui0odgHuVhE"><img src="https://github.com/Illumaria/made-deep-learning/blob/master/icons/youtube.png" /></a>
+      </td>
+      <td>22.05.2021</td>
+    </tr>
+    <!-------------------- WEEK 13 -------------------->
+    <tr>
+      <td align="center"><a href="https://data.mail.ru/curriculum/program/lesson/16724/">13</a></td>
+      <td align="center">Нейронные вокодеры: проблема восстановления фазы (алгоритм Гриффина-Лима), авторегрессионные модели вокодеров (WaveNet, WaveRNN, LPCNet), неавторегрессионные модели вокодеров (WaveGlow, HiFi-GAN), основные проблемы моделей вокодеров и нерешённые задачи.</td>
+      <td align="center">
+        <a href="https://github.com/Illumaria/made-speech-signal-processing/blob/master/13-neural-vocoders/13_neural_vocoders.pdf"><img src="https://github.com/Illumaria/made-deep-learning/blob/master/icons/pdf.png" /></a>
+        <a href="https://youtu.be/vCiJY6kjbXs"><img src="https://github.com/Illumaria/made-deep-learning/blob/master/icons/youtube.png" /></a>
+      </td>
+      <td>29.05.2021</td>
+    </tr>
+    <!-------------------- WEEK 14 -------------------->
+    <tr>
+      <td align="center"><a href="https://data.mail.ru/curriculum/program/lesson/16725/">14</a></td>
+      <td align="center">Моделирование дыхания, пауз хетизации и других неречевых эффектов, проблемы разработки эмоционального TTS, проблемы разработки систем TTS для малоресурсных языков, TTS для голосов животных.</td>
+      <td align="center">
+        <a href="https://github.com/Illumaria/made-speech-signal-processing/blob/master/14-tts-tasks-and-problems/14_tts_tasks_and_problems.pdf"><img src="https://github.com/Illumaria/made-deep-learning/blob/master/icons/pdf.png" /></a>
+        <a href="https://youtu.be/DLUrDu9P210"><img src="https://github.com/Illumaria/made-deep-learning/blob/master/icons/youtube.png" /></a>
+      </td>
+      <td>05.06.2021</td>
+    </tr>
   </tbody>
 </table>
